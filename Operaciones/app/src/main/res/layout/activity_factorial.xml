@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Factorial"
+    android:background="@color/fondo">
+
+    <TextView
+        android:id="@+id/lblTituloFac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:text="@string/factorial"
+        android:textColor="@color/titulo"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <TextView
+        android:id="@+id/lblInstFac"
+        android:layout_width="351dp"
+        android:layout_height="41dp"
+        android:text="@string/instruccionesFac"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblTituloFac"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <EditText
+        android:id="@+id/editNumberFac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblInstFac"
+        app:layout_constraintVertical_bias="0.093" />
+
+    <TextView
+        android:id="@+id/lblResFac"
+        android:layout_width="221dp"
+        android:layout_height="76dp"
+        android:text="@string/ResultafoFactorial"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editNumberFac"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/btnFactorial"
+        android:layout_width="287dp"
+        android:layout_height="46dp"
+        android:text="@string/botonCalcular"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblResFac"
+        app:layout_constraintVertical_bias="0.136"
+        android:backgroundTint="@color/botones"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="214dp"
+        android:layout_height="217dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFactorial"
+        app:layout_constraintVertical_bias="0.703"
+        app:srcCompat="@drawable/planeacion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

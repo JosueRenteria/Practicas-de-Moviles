@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome"
+    android:background="@color/fondo">
+
+    <TextView
+        android:id="@+id/lblBienvenida"
+        android:layout_width="360dp"
+        android:layout_height="113dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="@string/bienvenido"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/titulo"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091" />
+
+    <Button
+        android:id="@+id/btnFactorial"
+        android:layout_width="450px"
+        android:layout_height="wrap_content"
+        android:text="@string/botonFactorial"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblInstruccion"
+        app:layout_constraintVertical_bias="0.033"
+        android:backgroundTint="@color/botones"/>
+
+    <Button
+        android:id="@+id/btnVarianza"
+        android:layout_width="450px"
+        android:layout_height="wrap_content"
+        android:text="@string/botonVarianza"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFactorial"
+        app:layout_constraintVertical_bias="0.05"
+        android:backgroundTint="@color/botones"/>
+
+    <TextView
+        android:id="@+id/lblInstruccion"
+        android:layout_width="321dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/instrucciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblBienvenida"
+        app:layout_constraintVertical_bias="0.034" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVarianza"
+        app:srcCompat="@drawable/r__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

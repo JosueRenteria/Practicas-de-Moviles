@@ -1,0 +1,29 @@
+<resources>
+
+    <!--Datos de la Ventana de Inicio de Sesion-->
+    <string name="app_name">Login de Operaciones</string>
+    <string name="usuario">Usuario:</string>
+    <string name="clave">Clave:</string>
+    <string name="usuarioHint">Nombre del usuario</string>
+    <string name="botonAceptar">Iniciar Sesion</string>
+    <string name="recuerdame">Recordar datos</string>
+    <string name="Bienvenida">Bienvenido</string>
+
+    <!--Datos de la Ventana Principal-->
+    <string name="bienvenido">Bienvenido</string>
+    <string name="botonFactorial">Factorial</string>
+    <string name="botonVarianza">Varianza</string>
+    <string name="instrucciones"><b>INSTRUCCION:</b> Escoger alguna de las siguientes 2 opciones.</string>
+
+    <!--Datos de la Ventana Factorial-->
+    <string name="factorial">Factorial</string>
+    <string name="instruccionesFac"><b>INSTRUCCION:</b> Ingresa un número, el cual se calculara el factorial de este numero.</string>
+    <string name="botonCalcular">Calcular Factorial</string>
+    <string name="ResultafoFactorial">El resultado es: </string>
+
+    <!--Datos de la Ventana Varianza-->
+    <string name="varianza">Desviación Estándar Típica</string>
+    <string name="instruccionesVar"><b>INSTRUCCION:</b> Este programa solo está hecho para sacar la desviación estándar típica de numero ya precargados, estos número son: 1.0, 2.0, 3.0, 4.0, 5.0 y 6.0.</string>
+    <string name="botonCalcularVar">Calcular Desviación</string>
+    <string name="ResultafoVarianza">El resultado es: </string>
+</resources>
