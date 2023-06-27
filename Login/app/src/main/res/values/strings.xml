@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Iniciar Sesión</string>
+    <string name="email">Correo Electronico</string>
+    <string name="clave">Clave</string>
+    <string name="recuerdame">Recuerdame</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="textoBienvenido">Bienvenido</string>
+</resources>

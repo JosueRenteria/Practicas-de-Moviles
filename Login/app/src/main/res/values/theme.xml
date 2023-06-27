@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="estiloBoton">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/background_cuadros_texto</item>
+        <item name="android:textColor">#16BFFB</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:fontFamily">casual</item>
+
+    </style>
+
+    <style name="estiloImagen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+
+    <style name="estiloTextView">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/background_cuadros_texto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textColor">#16BFFD</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+    <style name="estiloEditText">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/background_cuadros_texto</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textColor">#16BFFD</item>
+        <item name="android:textSize">23sp</item>
+    </style>
+</resources>
