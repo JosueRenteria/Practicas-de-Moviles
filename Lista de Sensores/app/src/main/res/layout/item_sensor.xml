@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@color/fondoLista">
+
+    <ImageView
+        android:id="@+id/imagenSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        />
+
+    <TextView
+        android:id="@+id/nombreSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/imagenSensor"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tipoSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_below="@id/nombreSensor"
+        android:layout_toEndOf="@id/imagenSensor"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/proveedorSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_below="@id/tipoSensor"
+        android:layout_toEndOf="@id/imagenSensor"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
+
