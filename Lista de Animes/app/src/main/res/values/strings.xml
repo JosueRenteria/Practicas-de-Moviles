@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Manhwas</string>
+    
+    <string name="nombrePrimero">Nueva Vida del Jugador</string>
+    <string name="descripcionPrimero">Del estudio que te trajo Maldita Reencarnación y Mi Vida Escolar Fingiendo Ser una Persona Inútil. Después de perder a su familia y cerrar su corazón, sólo quería matar a los monstruos que detestaba. Retrocedí antes de que mi vida llegara a su fin en la parte más profunda de la Mazmorra del abismo que era imposible de asaltar para la humanidad. Ya que he renacido como un bebé, hagamos que esta vida sea diferente. Haré cualquier cosa por el bien de mi felicidad. Mataré para vivir, y haré todo lo posible para sobrevivir. Incluso si tengo que recorrer un camino espinoso yo solo sin que nadie me reconozca. En esta vida, definitivamente.</string>
+    <string name="capitulosPrimero">31</string>
+
+    <string name="nombreSegundo">Mi Hermano Pequeño Es El Mejor De La Academia</string>
+    <string name="descripcionSegundo">En la última batalla contra el rey de la raza de dragones que mató a innumerables humanos, Rudd Denatos pierde a sus camaradas y a su hermano biológico, Aesir Denatos. En el momento en que mata a un dragón no identificado que aparece ante él, regresa a sus días de cadete de la academia.Esta vez, Rudd intenta matar a todos los dragones para que el pasado no se repita. Sin embargo, en el pasado, ha retrocedido a su hermano, Aesir, un genio guerrero que no existe. Tratando de ocupar el lugar vacío de Aesir, Rudd intenta prepararse al máximo antes de que aparezca el rey dragón más fuerte, el Séptimo Dragón.¿Podrá Rudd encontrar a su hermano mayor y vengar a sus padres?</string>
+    <string name="capitulosSegundo">26</string>
+
+    <string name="nombreTercero">Maldita Reencarnación</string>
+    <string name="descripcionTercero">El guerrero Hamel se fue de aventura con sus compañeros para derrotar a los Reyes Demonios, pero después de morir justo antes de la batalla final con los Reyes Demonios....Waaah.¡Qué mierda!. Se reencarnó en el descendiente de su compañero guerrero, Vermouth.Hamel - no, Eugene Lionheart renació con la sangre del Gran Vermut. Mi cuerpo anterior tenía suficiente talento para ser confundido con un genio, pero este... simplemente no hay comparación.</string>
+    <string name="capitulosTercero">50</string>
+
+    <string name="nombreCuarto">El legendario hijo menor de la Casa del Marques</string>
+    <string name="descripcionCuarto">Vine aquí solo para poder vengarme. Derroqué al imperio Tulkan, una nación que dominaba un continente entero. Siempre pude obtener la victoria. Logré todo lo que quise y estoy satisfecho. Por eso acepté mi inminente muerte. Ya no tengo razón para vivir. Y mi corazón dejó de latir. Definitivamente sentí que dejó de hacerlo. Sin embargo, ¿Qué rayos pasó? No es magia negra ni tampoco parece ser una ilusión. Un chico con una pantaloneta y cabello negro se reflejaba en el espejo. Me veía exactamente como cuando tenía 14 años, hace 20 años ya. Un chico joven, que no había perdido su grase de bebe todavía, se agarra los cachetes y murmuró, ¿Cómo es esto posible?, He retornado. Al momento donde estaban mis arrepentimientos.</string>
+    <string name="capitulosCuarto">65</string>
+
+    <string name="nombreQuinto">El príncipe demonio va a la academia</string>
+    <string name="descripcionQuinto">El Rey Demonio ha Muerto es una historia en la que el Rey Demonio fue asesinado inmediatamente en el Prólogo. Y me convertí en el Príncipe Demonio de dicha novela.…Ayúdame.</string>
+    <string name="capitulosQuinto">88</string>
+</resources>
